@@ -1,0 +1,20 @@
+@font-face {
+    src: url(./assets/Gotham-Bold/Gotham\ Bold.otf);
+    font-family: Gotham-Bold;
+  }
+  @font-face {
+    src: url(./assets/Gotham-Rounded-Light/Gotham\ Rounded\ Light.otf);
+    font-family: Gotham-round;
+  }
+  @font-face {
+    src: url(./assets/HelveticaNeue/HelveticaNeue\ Light.ttf);
+    font-family: Helvetica-light;
+  }
+  @font-face {
+    src: url(./assets/HelveticaNeue/HelveticaNeue\ Medium.ttf);
+    font-family: Helvetice-medium;
+  }
+  @font-face {
+    src: url(./assets/HelveticaNeue/Helvetica\ Neu\ Bold.ttf);
+    font-family: Helvetice-bold;
+  }
