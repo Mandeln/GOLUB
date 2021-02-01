@@ -28,6 +28,11 @@
     font-family: Helvetica-light, sans-serif;
   }
 
+  footer {
+    width: 100%;
+    height: 200px;
+  }
+
   a {
     text-decoration: none;
     color: #888888;
@@ -36,6 +41,7 @@
   button {
     border: none;
     background-color: white;
+    z-index: 4;
   }
 
   input {
@@ -46,10 +52,15 @@
     padding-right: 30px;
   }
 
+  main {
+    margin-top: 50px;
+  }
+
   a:hover {
     color: #d35266;
   }
   .nav0 {
+    top: 0;
     z-index: 10;
     position: fixed;
     width: 100%;
@@ -128,9 +139,34 @@
   }
   
   .dove {
+    z-index: 3 !important;
     font-size: 80px;
     font-size: 380px;
     overflow: hidden;
     opacity: 0.3;
     left: 30px;
+  }
+
+  .card-img > a {
+    color: black;
+  }
+
+  .card-img > a > img {
+    width: 100px;
+  }
+
+  .card-body {
+    font-size: 11px;
+    padding-left: 0;
+  }
+
+  ul {
+    padding-left: 0;
+    padding-right: 2rem;
+    font-size: 11px;
+    list-style: none;
+  }
+
+  footer > section:first-of-type {
+    padding: 0 50px 0 50px;
   }
