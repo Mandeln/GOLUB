@@ -156,6 +156,8 @@
 
   .card-body {
     font-size: 11px;
+    font-family: Gotham-round , sans-serif;
+    font-weight: lighter;
     padding-left: 0;
   }
 
@@ -168,10 +170,37 @@
 
   footer > section:first-of-type {
     padding: 0 50px 0 50px;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
   }
 
   .currency > div > div {
     text-align: right;
+    color: #d35266;
+  }
+
+  .currency > div > input {
+    border: 1px solid #888888;
+    margin-left: 12px;
+    text-align: center;
+    padding-right: 0;
+    font-family: Helvetice-bold , sans-serif;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer  a {
+    font-family: Gotham-round, sans-serif !important;
+  }
+
+  footer h5 {
+    color: #d35266;
+    border-bottom: 1px solid #d35266;
+    width: 85%;
   }
 
   @media screen and (max-width: 992px) {
