@@ -58,8 +58,7 @@
   a:hover {
     color: #d35266;
   }
-  .nav0,
-  .nav01 {
+  .nav0 {
     max-width:100%;
     top: 0;
     z-index: 10;
@@ -93,7 +92,7 @@
   }
 
   .nav11 {
-    
+    height: 180px;
   }
 
   .logo-img > img {
@@ -154,11 +153,18 @@
   
   .dove {
     z-index: 3 !important;
-    font-size: 80px;
     font-size: 380px;
     overflow: hidden;
     opacity: 0.3;
     left: 30px;
+  }
+
+  .dove1 {
+    z-index: 3 !important;
+    font-size: 190px !important;
+    overflow: hidden;
+    opacity: 0.3;
+    left: 40px;
   }
 
   .card-img > a {
@@ -425,6 +431,23 @@
   .drums img,
   .amps img {
     min-height: 160px;
+  }
+
+  .second-logo img {
+    width: 120px;
+  }
+
+  .nav11 {
+    align-items: center;
+  }
+
+  .second-nav-holder {
+    justify-content: left;
+    padding-top: 40px;
+  }
+
+  .catchphrase-fix {
+    margin-left: -360px;
   }
 
   footer  a {
