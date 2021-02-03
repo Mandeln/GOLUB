@@ -450,6 +450,33 @@
     margin-left: -360px;
   }
 
+  .search-container {
+    margin: 0 80px 0 80px;
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+  }
+
+  .search-container aside {
+    font-family: Helvetice-medium, sans-serif;
+    font-weight: normal;
+    color: #979797;
+  }
+
+  .search-container .card {
+    border: none;
+    border-radius: 0;
+  }
+
+  .firstest-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .search-container > aside > article > h5 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+
   footer  a {
     font-family: Gotham-round, sans-serif !important;
   }
