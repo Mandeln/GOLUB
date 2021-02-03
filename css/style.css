@@ -58,7 +58,8 @@
   a:hover {
     color: #d35266;
   }
-  .nav0 {
+  .nav0,
+  .nav01 {
     max-width:100%;
     top: 0;
     z-index: 10;
@@ -75,13 +76,26 @@
   )
   }
 
-  .nav1 {
+  .adbutton {
+   background-color: #d35266;
+   color: white;
+   font-family: Gotham-round, sans-serif;
+   font-size: 15px;
+  }
+
+  .nav1,
+  .nav11 {
     width: 100%;
     height: 300px;
     color: white;
     background-color: #d35266;
     top: 50px;
   }
+
+  .nav11 {
+    
+  }
+
   .logo-img > img {
     width: 100px;
   }
@@ -233,6 +247,10 @@
     height: 100px;
     top: 470px;
     right: 10px;
+  }
+
+  .fix {
+    margin-left: -4px;
   }
 
   .carousel-control-prev {
@@ -404,6 +422,11 @@
     padding-left: 15px;
   }
 
+  .drums img,
+  .amps img {
+    min-height: 160px;
+  }
+
   footer  a {
     font-family: Gotham-round, sans-serif !important;
   }
@@ -423,6 +446,16 @@
   @media screen and (max-width: 767px) {
     .left,
     .right {
+      display: none;
+    }
+
+    .lower-part .card {
+      flex: 0 0 auto;
+      width: 47%;
+      margin-bottom: 15px;
+    }
+
+    .adbutton {
       display: none;
     }
   }
