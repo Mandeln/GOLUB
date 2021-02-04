@@ -1,25 +1,25 @@
 @font-face {
-  src: url(./assets/Gotham-Bold/Gotham\ Bold.otf);
+  src: url(./assets/Gotham-Bold/Gotham-Bold.otf);
   font-family: Gotham-Bold;
 }
 
 @font-face {
-  src: url(./assets/Gotham-Rounded-Light/Gotham\ Rounded\ Light.otf);
+  src: url(./assets/Gotham-Rounded-Light/Gotham-Rounded-Light.otf);
   font-family: Gotham-round;
 }
 
 @font-face {
-  src: url(./assets/HelveticaNeue/HelveticaNeue\ Light.ttf);
+  src: url(./assets/HelveticaNeue/HelveticaNeueLight.ttf);
   font-family: Helvetica-light;
 }
 
 @font-face {
-  src: url(./assets/HelveticaNeue/HelveticaNeue\ Medium.ttf);
+  src: url(./assets/HelveticaNeue/HelveticaNeueMedium.ttf);
   font-family: Helvetice-medium;
 }
 
 @font-face {
-  src: url(./assets/HelveticaNeue/Helvetica\ Neu\ Bold.ttf);
+  src: url(./assets/HelveticaNeue/Helvetica-Neu-Bold.ttf);
   font-family: Helvetice-bold;
 }
 
@@ -237,6 +237,9 @@ a:hover {
   margin-left: 10px;
   background-color: #383838;
   color: #888;
+  line-height: 45px;
+  padding-right: 35px;
+  margin-right: 1px;
 }
 
 .dove {
@@ -333,6 +336,12 @@ ul {
 
 .fix {
   margin-left: -4px;
+  font-family: Gotham-round, sans-serif;
+  background-color: #d35266;
+  color: white;
+  padding: 7.5px 10px;
+  margin-top: 15px;
+  border-radius: 2px;
 }
 
 .carousel-control-prev {
