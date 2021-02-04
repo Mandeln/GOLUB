@@ -724,6 +724,10 @@
       text-decoration: none;
     }
 
+    .btn:focus {
+      box-shadow: none;
+    }
+
     .btn-link:hover {
       color: #d35266;
     }
