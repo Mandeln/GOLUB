@@ -38,13 +38,85 @@
       </nav>
   </header>
   <main class="search-main">
-    <section class="search-container d-flex flex-row justify-content-center">
-      <aside class="col-3">
+    <section class="search-container d-flex flex-column flex-sm-row justify-content-center">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Category
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <form action="#">
+                <input type="checkbox" id="Guitar" name="Guitar" value="Guitar">
+                <label for="new">Guitar</label></br>
+                <input type="checkbox" id="Drums" name="Drums" value="Drums">
+                <label for="new">Drums</label></br>
+                <input type="checkbox" id="Amps" name="Amps" value="Amps">
+                <label for="new">Amps</label></br>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Type
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <form action="#">
+                <input type="checkbox" id="Guitar" name="Guitar" value="Guitar">
+                <label for="new">Electric</label></br>
+                <input type="checkbox" id="Drums" name="Drums" value="Drums">
+                <label for="new">Acoustic</label></br>
+                <input type="checkbox" id="Amps" name="Amps" value="Amps">
+                <label for="new">Hollow</label></br>
+                <input type="checkbox" id="Amps" name="Amps" value="Amps">
+                <label for="new">Semi-Hollow</label></br>
+                <input type="checkbox" id="Amps" name="Amps" value="Amps">
+                <label for="new">Other</label></br>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Category
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <form action="#">
+                <input type="checkbox" id="Guitar" name="Guitar" value="Guitar">
+                <label for="new">Guitar</label></br>
+                <input type="checkbox" id="Drums" name="Drums" value="Drums">
+                <label for="new">Drums</label></br>
+                <input type="checkbox" id="Amps" name="Amps" value="Amps">
+                <label for="new">Amps</label></br>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="side-panel col-3">
         <article class="firstest-card d-inline-block">
+          <form action="#">
           <input type="checkbox" id="Used" name="Used" value="Used">
           <label for="new">Used</label>
           <input type="checkbox" id="New" name="New" value="New">
           <label for="new">New</label>
+        </form>
         </article>
         <article class="card">
         <h5>Category</h5>
@@ -69,7 +141,7 @@
           <input type="checkbox" id="Amps" name="Amps" value="Amps">
           <label for="new">Semi-Hollow</label></br>
           <input type="checkbox" id="Amps" name="Amps" value="Amps">
-          <label for="new">Acoustic-Electric</label></br>
+          <label for="new">Other</label></br>
         </form>
       </article>
       <article class="card">
@@ -84,7 +156,7 @@
         </form>
       </article>
       </aside>
-      <section class="big col-9">
+      <section class="big col-12 col-sm-9">
         <section class="srch-results py-2 d-inline-block w-100">We found 6 results for your search. Check below...</section>
         <section class="srch-card-holder">
           <article class="small card d-flex flex-column flex-md-row flex-nowrap px-3 py-3">

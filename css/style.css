@@ -624,6 +624,21 @@
     .adbutton {
       display: none;
     }
+
+    .search-container {
+      margin:0 19px 0 19px;
+    }
+
+    .srch-img,
+    .srch-text {
+      width: 100% !important;
+    }
+
+    .srch-text {
+      padding-left: 0;
+      padding-top: 10px;
+    }
+
   }
 
   @media screen and (max-width: 645px) {
@@ -687,5 +702,9 @@
     .currency > div {
       padding-right: 3px;
       padding-left: 3px;
+    }
+
+    .side-panel {
+      display: none;
     }
   }
