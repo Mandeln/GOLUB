@@ -707,4 +707,28 @@
     .side-panel {
       display: none;
     }
+
+    #accordion {
+      border-left: 1px solid rgba(0,0,0,.125);
+      text-decoration-style: none;
+    }
+
+    #accordion .card-body {
+      font-size: 15px;
+      line-height: 25px;
+      padding-left: 10px;
+    }
+
+    .btn-link {
+      color: #383838;
+      text-decoration: none;
+    }
+
+    .btn-link:hover {
+      color: #d35266;
+    }
+
+    .card-header {
+      padding: 0;
+    }
   }
