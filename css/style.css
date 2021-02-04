@@ -441,6 +441,14 @@
     align-items: center;
   }
 
+  .srch-img {
+    position: relative;
+  }
+
+  .srch-img i {
+    padding: 5px;
+  }
+
   .second-nav-holder {
     justify-content: left;
     padding-top: 40px;
@@ -471,7 +479,6 @@
   .firstest-card {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #8888880f;
   }
 
   .search-container > aside > article > h5 {
@@ -504,6 +511,14 @@
   .small img {
     max-width: 100%;
     min-height: 100%;
+  }
+
+  .caption {
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: #383838;
+    color: #d35266;
   }
 
   .srch-text {
@@ -558,6 +573,10 @@
     border-top: 1px solid rgba(0,0,0,.125) !important;
     border-bottom: 1px solid rgba(0,0,0,.125) !important;
     margin-bottom: 10px;
+  }
+
+  .small:first-of-type {
+    border-top: none !important;
   }
 
   .srch-card-holder > article {
