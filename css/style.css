@@ -625,3 +625,67 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 645px) {
+    .card-holder {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .home > a > i {
+      display: none;
+    }
+
+    .home {
+      padding-left: 0 !important;
+    }
+
+    .specialitet {
+      display: none;
+    }
+
+    .hamburger {
+      font-size: 25px;
+    }
+
+    .title-holder > div {
+      display: none;
+    }
+
+    .card-holder {
+      justify-content: center;
+    }
+
+    .card-holder .card {
+      width: 70%;
+    }
+
+    .copyright {
+      flex-direction: column;
+    }
+
+    footer > section:first-of-type {
+      border-bottom: none;
+    }
+
+    .currency > div > div {
+      text-align: center;
+    }
+
+    .currency > div > input {
+      margin-left: 0;
+    }
+
+    .currency {
+      padding-left: 7px;
+      padding-right: 7px;
+      border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+    .currency > div {
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+  }
