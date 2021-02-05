@@ -613,6 +613,34 @@ footer h5 {
   background-color: #8888880f;
 }
 
+.magnifying-glass {
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.magnifying-glass input {
+  width: 100%;
+  font-size: 15px;
+  font-family: Helvetice-medium, sans-serif;
+  height: 40px;
+  opacity: 0.5;
+}
+
+.magnifying-glass > input:focus {
+  outline: none;
+  opacity: 1;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.magnifying-glass i {
+  color: #d35266;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
 @media screen and (max-width: 992px) {
   footer > section:first-of-type {
     padding: 0 10px 0 10px;
