@@ -89,6 +89,10 @@ a:hover {
     );
 }
 
+.nav0 a {
+  color: rgb(182, 182, 182) !important;
+}
+
 .adbutton {
   background-color: #d35266;
   color: white;
@@ -617,10 +621,17 @@ footer h5 {
   color: #d35266;
 }
 
+.categories a,
+.navigation a{
+  color: #383838;
+}
+
 .small {
   border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
 }
 
 .small:first-of-type {
