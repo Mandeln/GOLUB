@@ -55,6 +55,10 @@ input {
   padding-right: 30px;
 }
 
+input:focus {
+  outline: none;
+}
+
 main {
   margin-top: 50px;
 }
