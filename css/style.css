@@ -458,6 +458,14 @@ footer > section:first-of-type {
   text-align: right;
 }
 
+.magnifying-glass input {
+  width: 100%;
+  font-size: 15px;
+  font-family: Helvetice-medium, sans-serif;
+  height: 40px;
+  opacity: 0.5;
+}
+
 .currency > div > input {
   border: 1px solid #888;
   margin-left: 12px;
@@ -727,14 +735,6 @@ input:focus::placeholder {
 
   .currency > div > div {
     text-align: center;
-  }
-
-  .magnifying-glass input {
-    width: 100%;
-    font-size: 15px;
-    font-family: Helvetice-medium, sans-serif;
-    height: 40px;
-    opacity: 0.5;
   }
 
   .currency > div > input {
