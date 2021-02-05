@@ -203,6 +203,12 @@ a:hover {
   right: 5px;
 }
 
+.magnifying-glass i {
+  color: #d35266;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
 .home > a > i {
   font-size: 10px !important;
   padding-right: 20px;
@@ -618,14 +624,6 @@ footer h5 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.magnifying-glass input {
-  width: 100%;
-  font-size: 15px;
-  font-family: Helvetice-medium, sans-serif;
-  height: 40px;
-  opacity: 0.5;
-}
-
 .magnifying-glass > input:focus {
   outline: none;
   opacity: 1;
@@ -633,12 +631,6 @@ footer h5 {
 
 input:focus::placeholder {
   color: transparent;
-}
-
-.magnifying-glass i {
-  color: #d35266;
-  font-size: 20px;
-  padding-top: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -735,6 +727,14 @@ input:focus::placeholder {
 
   .currency > div > div {
     text-align: center;
+  }
+
+  .magnifying-glass input {
+    width: 100%;
+    font-size: 15px;
+    font-family: Helvetice-medium, sans-serif;
+    height: 40px;
+    opacity: 0.5;
   }
 
   .currency > div > input {
